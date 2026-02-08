@@ -1,0 +1,43 @@
+how do we achieve these in verilog-a?
+
+1. Voltage levels: The LFO should be designed to
+   work with the voltage levels of the modular
+   system it is intended for. The voltage levels
+   for control signals can vary between different
+   modular systems, so it is important to design
+   the LFO to match the expected voltage levels.
+
+2. Signal impedance: The output impedance of the
+   LFO should be low enough to avoid signal
+   degradation and noise pickup. It is also
+   important to match the input impedance of the
+   module the LFO is being used with.
+
+3. Noise and distortion: The LFO should produce
+   a clean and stable waveform with minimal noise
+   and distortion. This can be achieved through
+   careful design of the circuit and proper
+   grounding techniques.
+
+4. Power supply noise: The LFO should be designed
+   to minimize the impact of power supply noise on
+   the output waveform. This can be achieved
+   through proper power supply filtering and
+   decoupling.
+
+5. Temperature stability: The LFO should be
+   designed to operate within a specified
+   temperature range and maintain stable operation
+   over this range.
+
+6. Component tolerance: The LFO should be designed
+   to be tolerant of variations in component
+   values and tolerances. This can be achieved
+   through careful selection of components and
+   proper circuit design techniques.
+
+7. Mechanical stability: The LFO should be
+   designed to be mechanically stable and
+   withstand vibrations and shocks that may occur
+   in a modular system.
+

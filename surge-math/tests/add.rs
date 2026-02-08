@@ -1,5 +1,6 @@
 use surge_math::*;
 use surge_imports::*;
+use surge_errors::*;
 
 #[test]
 fn test_add_block() {

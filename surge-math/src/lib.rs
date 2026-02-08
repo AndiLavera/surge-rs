@@ -3,8 +3,8 @@
 #![allow(unused_imports)]
 #![feature(test)]
 #![feature(core_intrinsics)]
+#![feature(stdarch_x86_mm_shuffle)]
 // #[cfg(target_arch = "x86_64")]
-// #![feature(stdarch_x86_mm_shuffle)]
 #![feature(trait_alias)]
 
 #[macro_use]

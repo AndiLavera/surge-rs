@@ -3,4 +3,4 @@ vendor/*
 ignore/*
 u/*
 **/.DS_Store
-
+Cargo.lock

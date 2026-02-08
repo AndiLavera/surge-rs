@@ -4,7 +4,10 @@ crate::ix!();
 
 use std::arch::aarch64::*;
 
+#[allow(non_camel_case_types)]
 pub type __m128 = float32x4_t;
+
+#[allow(non_camel_case_types)]
 pub type __m128i = int32x4_t;
 
 #[macro_export]
@@ -146,7 +149,7 @@ pub unsafe fn _mm_set_ps(w: f32, z: f32, y: f32, x: f32) -> float32x4_t {
         y: f32,
         z: f32,
         w: f32,
-    };
+    }
 
     let mew = Example { x, y, z, w };
     return vld1q_f32(&mew as *const Example as *const f32);

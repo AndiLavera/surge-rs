@@ -1,5 +1,4 @@
-#[macro_use]
-mod imports;
-use imports::*;
+#[macro_use] mod imports; use imports::*;
 
-x! {aarch64}
+#[cfg(target_arch = "aarch64")]
+x!{aarch64}

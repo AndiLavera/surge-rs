@@ -1,5 +1,6 @@
 use surge_math::*;
 use surge_imports::*;
+use surge_errors::*;
 
 #[traced_test]
 fn test_limit_range_f32() -> Result<(),MathError> {

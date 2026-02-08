@@ -3,12 +3,12 @@
 CARGO      := MAKEFLAGS= env CARGO_BUILD_JOBS=12 NUM_JOBS=12 cargo
 CARGO_TEST := $(CARGO) test
 
-DEFAULT         := test
 DEFAULT         := test_file
 #DEFAULT         := test_all
 #DEFAULT         := build
 #DEFAULT         := test_file_one
 DEFAULT         := all
+DEFAULT         := test
 
 RUST_LOG       := info
 TEST_FILE       := surge-math/tests/convert.rs
